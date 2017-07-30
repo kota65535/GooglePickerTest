@@ -53,6 +53,7 @@
 				addView(google.picker.ViewId.DOCUMENTS).
 				setAppId(this.clientId).
 				setOAuthToken(accessToken).
+				setOrigin("https://kota65535.github.io").
 				setCallback(this._pickerCallback.bind(this)).
 				build().
 				setVisible(true);
